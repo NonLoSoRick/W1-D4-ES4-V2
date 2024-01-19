@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Primi passi operativi per creare un modello pagina html per un post -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets\css\reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="assets\css\style.css" />
+    <title>Sviluppo pagina web - Blog Epicode</title>
+  </head>
+  <body>
+    <header class="logo">
+      <div>
+        <img src="./assets/img/logo.svg" alt="logoepicode" />
+      </div>
+      <h1>Epicode il blog dei developers</h1>
+      <nav id="nav-bar">
+        <ul id="menu">
+          <li><i class="fas fa-arrow-right"></i> <a href="#">Home</a><i class="fas fa-arrow-left"></i></li>
+          <li class="active">
+            <i class="fas fa-arrow-right"></i> <a href="#">About us</a><i class="fas fa-arrow-left"></i>
+          </li>
+          <li><i class="fas fa-arrow-right"></i><a href="#">Articoli</a><i class="fas fa-arrow-left"></i></li>
+          <li><i class="fas fa-arrow-right"></i><a href="#">Lavora con noi</a><i class="fas fa-arrow-left"></i></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Come creare un template per i post</h1>
+      <p>
+        <i class="fas fa-pen-square"></i> di Mario Rossi -
+        <span><i class="fas fa-clock"></i> pubblicato il 25-10-2020</span>
+      </p>
+
+      <article>
+        <!-- tabella % -->
+        <div>
+          <table>
+            <caption>
+              diffusione css
+            </caption>
+            <thead>
+              <tr>
+                <th>Anno</th>
+                <th>% utilizzo</th>
+                <th>supporto browser</th>
+              </tr>
+              <tr>
+                <th>2001</th>
+                <th>20</th>
+                <th>17</th>
+              </tr>
+              <tr>
+                <th>2002</th>
+                <th>35</th>
+                <th>22</th>
+              </tr>
+              <tr>
+                <th>2004</th>
+                <th>45</th>
+                <th>43</th>
+              </tr>
+              <tr>
+                <th>2008</th>
+                <th>80</th>
+                <th>51</th>
+              </tr>
+              <tr>
+                <th>2012</th>
+                <th>100</th>
+                <th>76</th>
+              </tr>
+            </thead>
+          </table>
+        </div>
+
+        <!-- fine tabella -->
+        <p>
+          Un test di validazione potrà essere fatto tramite un tool online
+          <a href="https://developer.chrome.com/docs/devtools?hl=it">Devtools </a>
+          Una volta ottimizzato il tutto, avremo raggiunto il nostro obbiettivo ed essere stati dei veri developers come
+          loro:
+        </p>
+        <div class="video-container">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/v9rmq2TreJg?si=K4Lit61r6LZzAO6-"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <section>
+          <p>Vuoi rimanere aggiornato su altre novità del blog? Iscriviti alla nostra newsletter:</p>
+
+          <form action="" method="get" class="form-example">
+            <div class="form-example">
+              <label for="email">Enter your email: </label>
+              <input type="text" name="email" id="email" required />
+            </div>
+            <div class="form-example"></div>
+            <div class="form-example">
+              <input type="submit" value="Iscriviti!" />
+            </div>
+          </form>
+        </section>
+      </article>
+      <aside>
+        <p>
+          Articoli correlati <br />
+          Validare voce HTML <br />
+          Categoria: develop Data: 18-9-2020
+        </p>
+        <p>
+          Correggere la sintassi <br />
+          Categoria: develop <br />
+          Data: 16-9-2020
+        </p>
+        <p>
+          Meno kb nella pagina <br />
+          Categoria : ottimizzazione <br />
+          Data: 30-9-2020
+        </p>
+      </aside>
+    </main>
+    <div id="controllare">
+      <footer>
+        <p>blog epicode &copy 2023</p>
+        <address>
+          <p>Testata online di Mario Rossi,registrata con prot. n.213/2018-via enaudi 2- Milano. P.IVA 00112233.</p>
+          <p>
+            info@epicode.school <a href="https://www.google.com/intl/it/gmail/about/" target="_blank">link gmail</a>
+          </p>
+        </address>
+      </footer>
+    </div>
+  </body>
+</html>
